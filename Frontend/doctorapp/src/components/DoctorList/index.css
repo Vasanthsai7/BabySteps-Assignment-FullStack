@@ -1,0 +1,55 @@
+.doctor-list-container {
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #2354e8;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  h1{
+    font-size: 24px;
+    color:white;
+    margin-bottom: 15px;
+  }
+
+  .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    
+  }
+  
+  .doctor-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .doctor-item {
+    margin: 10px 0;
+    padding: 12px;
+    background: rgb(118, 167, 231);
+    border-radius: 8px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  
+  .doctor-item a {
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    font-weight: 500;
+  }
+  
+  .doctor-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  }
+  
+  .spinner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 92vh;
+  }
